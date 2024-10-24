@@ -59,6 +59,6 @@ print(f"The sum is {sum} ")
 
 ########################################
 
-# 1) ask the user to enter 5 numbers (hint: use 5 variables and a loop)
+# 1) ask the user to enter 5 numbers
 # 2) find the average of those numbers (hint: use a loop)
 # 3) print "The average of your numbers is ----"
