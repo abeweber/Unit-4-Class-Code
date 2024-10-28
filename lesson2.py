@@ -60,5 +60,17 @@ print(f"The sum is {sum} ")
 ########################################
 
 # 1) ask the user to enter 5 numbers
-# 2) find the average of those numbers (hint: use a loop)
+user_sum = 0
+num_values = 5
+
+for i in range(num_values):
+    user_num = int(input("Enter a number: "))
+    user_sum = user_sum + user_num # updates user_sum with user_num value
+
+# 2) find the average of those numbers
+average = user_sum/num_values
+
 # 3) print "The average of your numbers is ----"
+print(f"The average of your numbers is {average}")
+
+
