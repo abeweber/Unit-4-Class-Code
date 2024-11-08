@@ -11,12 +11,32 @@ while True:
         break
     
 total = 0
+height2 = height
 j = width-height
 print(f"The integers from {height} to {width} are:")
 for i in range(j):
-    height = height + 1
-    print(height, end=" ")
-    total = total + height
+    height2 = height2 + 1
+    print(height2, end=" ")
+    total = total + height2
 average = total/j
 print()
 print(f"The average is {average}")
+
+for i in range(width):
+    print("*", end="")
+print()
+width2 = width-2
+space = (" "*width2)
+for i in range(height-2):
+    print(f"*{space}*")
+for i in range(width):
+    print("*", end="")
+
+print()
+print()
+first_row = "**"
+factor = 1
+for i in range(height):
+    print(first_row*factor)
+    factor = factor + 1
+ 
